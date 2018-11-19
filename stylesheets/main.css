@@ -1,0 +1,36 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: ;
+  grid-template-areas: "grid_display grid_info";
+}
+
+.grid_display { grid-area: grid_display; }
+
+.section_info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1fr 2.3fr 0.4fr;
+  grid-template-areas: "grid_nav" "grid_copy" "grid_images" "grid_footer";
+  grid-area: grid_info;
+}
+
+.nav_main { 
+  grid-area: grid_nav;
+}
+
+.nav_sub { 
+  grid-area: grid_nav;
+}
+
+.article_copy { 
+  grid-area: grid_copy; 
+}
+
+.article_images { 
+  grid-area: grid_images;
+}
+
+.section_footer { 
+  grid-area: grid_footer; 
+}
