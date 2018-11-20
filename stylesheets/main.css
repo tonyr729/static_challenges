@@ -37,6 +37,7 @@ main {
   grid-template-areas: "grid_nav" "grid_copy" "grid_images" "grid_footer";
   grid-area: grid_info;
   background-color: #1f1f1fb0;
+  height: 100vh;
 }
 
 .nav_main { 
@@ -61,6 +62,8 @@ main {
   background-color: #a34100;
   display: flex;
   justify-content: space-around;
+  height: 13px;
+  margin-top: 55px;
 }
 
 .article_copy { 
@@ -74,7 +77,6 @@ main {
 
 .article_images { 
   grid-area: grid_images;
-  height: 30rem;
   margin: 15px;
   display: flex;
   justify-content: space-around;
